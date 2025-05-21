@@ -3,22 +3,15 @@
     font-optical-sizing: auto;
   }
 
-.parent {
-    display: grid;
-    place-items: center;
+body {
+    display: block;
+    margin-top: 0%;
 }
 
-.alinear {
+div {
+    display: block;
+}
+
+.centrar {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.ind {
-    margin-left: 250px;
-}
-
-p {
-    font-size: 30px;
 }
